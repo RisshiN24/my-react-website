@@ -41,24 +41,6 @@ Start the development server:
 
 The app will open at http://localhost:3000.
 
-## File Structure
-
-src/
-├── components/
-│   ├── Header.js
-│   ├── Header.css
-│   ├── Footer.js
-│   ├── Home.js
-│   ├── About.js
-│   ├── Experience.js
-├── App.js
-├── App.css
-├── App.test.js
-├── index.js
-├── index.css
-├── reportWebVitals.js
-├── setupTests.js
-
 ## Key Dependencies
 
 React: Frontend framework.

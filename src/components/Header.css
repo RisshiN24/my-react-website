@@ -1,19 +1,30 @@
 header {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  nav {
-    margin-top: 10px;
-  }
-  
-  nav a {
-    margin: 0 15px;  /* Adds space between the links */
-    text-decoration: none;
-    color: #333;
-  }
-  
-  nav a:hover {
-    color: #007bff;  /* Change color on hover */
-  }
+  background-color: #3b7429; /* Set the background color to blue */
+  color: #fff; /* Change the text color to white for contrast */
+  text-align: center;
+  padding: 20px 0; /* Add vertical padding */
+}
+
+header h1 {
+  font-size: 3rem; /* Increase the font size */
+  font-weight: bold; /* Optional: Make the text bold */
+  margin: 0; /* Remove default margin for tighter spacing */
+  color: #fff; /* Ensure it contrasts with the header background */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 15px; /* Space between the links */
+  text-decoration: none;
+  color: #fff; /* Make the links white to match the header text */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00; /* Change link color on hover for better visibility */
+}
+
   

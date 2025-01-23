@@ -1,0 +1,50 @@
+.experience {
+    padding: 20px; /* Padding around the experience section */
+    text-align: center; /* Center-aligns the heading */
+  }
+  
+  .projects-grid {
+    display: grid; /* Creates a grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive columns */
+    gap: 20px; /* Spacing between grid items */
+    margin-top: 40px; /* Space between heading and grid */
+  }
+  
+  .project-card {
+    border: 1px solid #ddd; /* Light border around the card */
+    border-radius: 15px; /* Rounded corners for the card */
+    overflow: hidden; /* Ensures content doesn’t overflow the card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Smooth hover effects */
+    text-align: center; /* Aligns text to the left */
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px); /* Moves the card slightly up on hover */
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
+  }
+  
+  .project-card a {
+    text-decoration: none; /* Removes underline from links */
+    color: inherit; /* Inherits the parent text color */
+  }
+  
+  .project-image {
+    width: 100%; /* Ensures the image takes the full width of the card */
+    height: auto; /* Maintains aspect ratio */
+  }
+  
+  .project-info {
+    padding: 15px; /* Padding inside the project details section */
+  }
+  
+  .project-info h3 {
+    margin: 10px 0; /* Adds space around the project title */
+    font-size: 1.5rem; /* Increases font size for the title */
+    color: #333; /* Dark gray color for the title */
+  }
+  
+  .project-info p {
+    margin: 0; /* Removes default margin */
+    color: #666; /* Light gray color for the description */
+  }

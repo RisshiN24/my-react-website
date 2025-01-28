@@ -1,0 +1,13 @@
+.home {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .my-photo {
+    width: 800px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10%; /* Make the photo circular */
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+  }
+  

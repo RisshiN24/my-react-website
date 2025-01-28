@@ -1,12 +1,16 @@
 import React from 'react';
+import myPhoto from '../assets/headshot.jpg';
+import './Home.css';
 
 const Home = () => {
   return (
-    <div>
-      <h2>Welcome to My React Website</h2>
-      <p>This is the home page. Explore more about me!</p>
+    <div className="home">
+      <img src={myPhoto} alt="A photo of me" className="my-photo" />
+      <p>I'm Risshi Naavaal – a software (& AI) developer passionate about building innovative solutions.</p>
     </div>
   );
 };
 
 export default Home;
+
+

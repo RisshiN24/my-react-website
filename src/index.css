@@ -1,13 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+html {
+  overflow-y: scroll; /* Always show the vertical scrollbar */
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: 'Poppins', sans-serif; /* Set Poppins as the default font */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for headings */
+  font-weight: 700; /* Bold weight */
+}
+
+p {
+  font-family: 'Poppins', sans-serif; /* Use Poppins for paragraphs */
+  font-weight: 400; /* Regular weight */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    monospace; /* Keep code font for inline code elements */
 }

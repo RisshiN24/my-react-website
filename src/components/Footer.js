@@ -14,7 +14,7 @@ const Footer = () => {
 
   return (
     <footer style={footerStyle}>
-      <p>© 2024 My React Website. All rights reserved.</p>
+      <p>— Risshi Naavaal —</p>
       <div>
         {/* GitHub Logo */}
         <a href="https://github.com/RisshiN24" target="_blank" rel="noopener noreferrer">

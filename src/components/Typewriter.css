@@ -1,0 +1,25 @@
+.typewriter {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .cursor {
+    display: inline-block;
+    width: 10px;
+    animation: blink 0.8s steps(10, start) infinite;
+    .cursor {
+        color: #000000;
+      }
+  }
+  
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  

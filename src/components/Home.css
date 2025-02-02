@@ -1,13 +1,22 @@
 .home {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .my-photo {
-    width: 800px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10%; /* Make the photo circular */
-    margin-top: 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
-  }
-  
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center; /* Center-align content */
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Stack text and image in a column */
+  align-items: center;
+  gap: 20px; /* Adds space between typewriter text and image */
+}
+
+.my-photo {
+  width: 600px; /* Adjust as needed */
+  height: auto;
+  border-radius: 10%; /* Make image circular */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

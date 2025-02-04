@@ -6,13 +6,13 @@ This project is a personal website built with React.js. It showcases information
 
 ## Features
 
-Home Page: Welcome message and brief overview.
+Home Page: Welcome message and brief overview including headshot.
 
-About Page: Information about hobbies and interests.
+About Page: Information about my personal story and some of my professional + non-professional interests.
 
 Experience Page: Details about work experience and projects.
 
-Header and Footer Components: Navigation and contact information.
+Header and Footer Components: Navigation and links to my GitHub, Kaggle, and LinkedIn.
 
 ## Setup Instructions
 

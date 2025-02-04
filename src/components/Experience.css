@@ -48,3 +48,16 @@
     margin: 0; /* Removes default margin */
     color: #666; /* Light gray color for the description */
   }
+
+  .button {
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 14px 40px;
+    transition-duration: 0.4s;
+    border: 2px solid #e7e7e7;
+  }
+
+  .button:hover {
+    background-color: #e7e7e7;
+  }

@@ -21,7 +21,7 @@ const projects = [
 const Experience = () => {
   return (
     <div className="experience">
-      <h2>My Projects</h2>
+      <h1>My Projects</h1>
       {/* Create a grid to display project cards */}
       <div className="projects-grid">
         {projects.map((project, index) => (
@@ -39,6 +39,12 @@ const Experience = () => {
           </div>
         ))}
       </div>
+      <h1>Resume/CV</h1>
+      <iframe src="/resume.pdf" width="100%" height="600px"></iframe>
+      <br />
+      <a href="/resume.pdf" download>
+        <button className="button">Download Resume</button>
+      </a>
     </div>
   );
 };

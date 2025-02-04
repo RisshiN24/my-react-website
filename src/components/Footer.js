@@ -20,11 +20,11 @@ const Footer = () => {
       <div>
         {/* GitHub Logo */}
         <a href="https://github.com/RisshiN24" target="_blank" rel="noopener noreferrer">
-          <img src={githubLogo} alt="GitHub" style={{ width: '30px', margin: '0 10px' }} />
+          <img src={githubLogo} alt="GitHub" style={{ width: '26px', margin: '0 10px' }} />
         </a>
         {/* Kaggle Logo */}
         <a href="https://www.kaggle.com/risshinaavaal24" target="_blank" rel="noopener noreferrer">
-          <img src={kaggleLogo} alt="Kaggle" style={{ width: '30px', margin: '0 10px' }} />
+          <img src={kaggleLogo} alt="Kaggle" style={{ width: '26px', margin: '0 10px' }} />
         </a>
         {/* LinkedIn Logo */}
         <a href="https://www.linkedin.com/in/risshi-naavaal-587941268/" target="_blank" rel="noopener noreferrer">

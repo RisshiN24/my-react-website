@@ -17,6 +17,18 @@ h1, h2, h3 {
   font-weight: 700; /* Bold weight */
 }
 
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 p {
   font-family: 'Poppins', sans-serif; /* Use Poppins for paragraphs */
   font-weight: 400; /* Regular weight */

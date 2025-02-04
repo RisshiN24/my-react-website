@@ -1,7 +1,10 @@
 import React from 'react';
+import { Viewer, Worker } from '@react-pdf-viewer/core';
+import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+import '@react-pdf-viewer/default-layout/lib/styles/index.css';
 import './Experience.css';
 
-// Define the projects array with project details
 const projects = [
   {
     name: 'LifeChat',
@@ -15,22 +18,18 @@ const projects = [
     image: require('../assets/news-feed-generator.jpg'),
     link: 'https://github.com/RisshiN24/news-feed-generator',
   },
-  // Add more projects here as needed
 ];
 
 const Experience = () => {
+  const defaultLayout = defaultLayoutPlugin();
   return (
     <div className="experience">
       <h1>My Projects</h1>
-      {/* Create a grid to display project cards */}
       <div className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
-            {/* Each project links to its GitHub repository */}
             <a href={project.link} target="_blank" rel="noopener noreferrer">
-              {/* Display the project image */}
-              <img src={project.image} alt={project.name} className="project-image" />
-              {/* Display project name and description */}
+              <img src={project.image} alt={project.name} className="project-image" loading="lazy"/>
               <div className="project-info">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
@@ -39,12 +38,13 @@ const Experience = () => {
           </div>
         ))}
       </div>
-      <h1>Resume/CV</h1>
-      <iframe src="/resume.pdf" width="100%" height="600px"></iframe>
-      <br />
-      <a href="/resume.pdf" download>
-        <button className="button">Download Resume</button>
-      </a>
+
+      <h2>Resume/CV</h2>
+      <div className="pdf-container">
+        <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
+          <Viewer fileUrl="/resume.pdf" plugins={[defaultLayout]} />
+        </Worker>
+      </div>
     </div>
   );
 };

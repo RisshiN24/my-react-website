@@ -1,5 +1,5 @@
 .experience {
-    padding: 20px; /* Padding around the experience section */
+    padding: 5px; /* Padding around the experience section */
     text-align: center; /* Center-aligns the heading */
   }
   
@@ -48,6 +48,15 @@
     margin: 0; /* Removes default margin */
     color: #666; /* Light gray color for the description */
   }
+
+  .pdf-container {
+    width: 80%;
+    height: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
 
   .button {
     font-family: 'Poppins', sans-serif;

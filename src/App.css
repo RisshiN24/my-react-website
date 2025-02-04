@@ -7,6 +7,10 @@ html, body {
   flex-direction: column;
 }
 
+html {
+  overflow-anchor: none;
+}
+
 /* App component container */
 .App {
   display: flex;

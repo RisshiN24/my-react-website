@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="home">
       <Typewriter text="Hi... my name is Risshi." speed={150} /> {/* Typewriter effect */}
-      <img src={myPhoto} alt="A photo of me" className="my-photo" />
+      <img src={myPhoto} alt="Risshi Naavaal" className="my-photo" />
       <p>I'm a software (& AI) developer passionate about building innovative solutions.</p>
     </div>
   );

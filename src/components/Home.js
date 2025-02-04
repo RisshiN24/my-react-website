@@ -1,5 +1,5 @@
 import React from 'react';
-import myPhoto from '../assets/headshot.jpg';
+import myPhoto from '../assets/headshot2.JPG';
 import Typewriter from './Typewriter'; // Import the Typewriter component
 import './Home.css';
 

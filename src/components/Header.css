@@ -1,5 +1,5 @@
 header {
-  background-color: #3b7429; /* Set the background color to blue */
+  background-color: #062969; /* Set the background color to blue */
   color: #fff; /* Change the text color to white for contrast */
   text-align: center;
   padding: 20px 0; /* Add vertical padding */
@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffcc00; /* Change link color on hover for better visibility */
+  color: #426fb3; /* Change link color on hover for better visibility */
 }
 
   

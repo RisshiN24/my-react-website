@@ -1,7 +1,9 @@
 import React from 'react';
 
-import githubLogo from '../assets/github-logo.png'; // Add this image to your project
-import linkedinLogo from '../assets/linkedin-logo.png'; // Add this image to your project
+// Import images of GitHub, LinkedIn, and Kaggle
+import githubLogo from '../assets/github-logo.png';
+import linkedinLogo from '../assets/linkedin-logo.png';
+import kaggleLogo from '../assets/kaggle-logo.png';
 
 const Footer = () => {
   
@@ -19,6 +21,10 @@ const Footer = () => {
         {/* GitHub Logo */}
         <a href="https://github.com/RisshiN24" target="_blank" rel="noopener noreferrer">
           <img src={githubLogo} alt="GitHub" style={{ width: '30px', margin: '0 10px' }} />
+        </a>
+        {/* Kaggle Logo */}
+        <a href="https://www.kaggle.com/risshinaavaal24" target="_blank" rel="noopener noreferrer">
+          <img src={kaggleLogo} alt="Kaggle" style={{ width: '30px', margin: '0 10px' }} />
         </a>
         {/* LinkedIn Logo */}
         <a href="https://www.linkedin.com/in/risshi-naavaal-587941268/" target="_blank" rel="noopener noreferrer">

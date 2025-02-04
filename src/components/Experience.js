@@ -1,18 +1,18 @@
 import React from 'react';
-import './Experience.css'; // Import CSS for styling
+import './Experience.css';
 
 // Define the projects array with project details
 const projects = [
   {
     name: 'LifeChat',
     description: 'A Chrome extension chatbot for personal growth and motivation.',
-    image: require('../assets/lifechat.jpg'), // Replace with actual image path
+    image: require('../assets/lifechat.jpg'),
     link: 'https://github.com/RisshiN24/life-chat',
   },
   {
     name: 'News Feed Generator',
     description: 'An interactive web app that provides personalized news feeds with summaries and source links.',
-    image: require('../assets/news-feed-generator.jpg'), // Replace with actual image path
+    image: require('../assets/news-feed-generator.jpg'),
     link: 'https://github.com/RisshiN24/news-feed-generator',
   },
   // Add more projects here as needed

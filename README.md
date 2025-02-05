@@ -43,9 +43,17 @@ The app will open at http://localhost:3000.
 
 ## Key Dependencies
 
-React: Frontend framework.
-
-React Router DOM: For routing between pages.
+├── @react-pdf-viewer/core@3.12.0
+├── @react-pdf-viewer/default-layout@3.12.0
+├── @testing-library/jest-dom@5.17.0
+├── @testing-library/react@13.4.0
+├── @testing-library/user-event@13.5.0
+├── aos@2.3.4
+├── react-dom@18.3.1
+├── react-router-dom@7.1.5
+├── react-scripts@5.0.1
+├── react@18.3.1
+└── web-vitals@2.1.4
 
 ## Commands
 

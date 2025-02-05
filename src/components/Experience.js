@@ -24,8 +24,8 @@ const Experience = () => {
   const defaultLayout = defaultLayoutPlugin();
   return (
     <div className="experience">
-      <h1>My Projects</h1>
-      <div className="projects-grid">
+      <h1 data-aos="fade" data-aos-delay="100">My Projects</h1>
+      <div data-aos="fade" data-aos-delay="100" className="projects-grid">
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <a href={project.link} target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ const Experience = () => {
         ))}
       </div>
 
-      <h2>Resume/CV</h2>
+      <h2 data-aos="fade" data-aos-delay="100">Resume/CV</h2>
       <div className="pdf-container">
         <Worker workerUrl={`https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js`}>
           <Viewer fileUrl="/resume.pdf" plugins={[defaultLayout]} />

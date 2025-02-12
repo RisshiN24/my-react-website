@@ -1,34 +1,19 @@
 import React from 'react';
 import './About.css';
 import bannerPhoto from '../assets/about-banner.jpg';
-import codingPhoto from '../assets/coding.jpg';
 import basketballPhoto from '../assets/basketball.jpg';
 import restaurantPhoto from '../assets/restaurant.jpg';
 import footballPhoto from '../assets/football.png';
 import bollywoodPhoto from '../assets/bollywood.jpg';
-import Carousel from 'react-multi-carousel';
-import 'react-multi-carousel/lib/styles.css';
+import codingPhoto from '../assets/coding.jpg';
 
 const About = () => {
   const interests = [
-    { text: '🚀 Building and optimizing software', image: codingPhoto },
     { text: '🏀 Playing basketball & staying active in the gym', image: basketballPhoto },
     { text: '🍽️ Eating at local restaurants', image: restaurantPhoto },
     { text: '🏈 Following the NFL (Go Ravens!)', image: footballPhoto },
     { text: '🎵 Listening to Bollywood music', image: bollywoodPhoto }
   ];
-
-  const carouselSettings = {
-    autoPlay: true,
-    autoPlaySpeed: 3000,
-    shouldResetAutoplay: false, // Prevents autoplay resetting incorrectly
-    infinite: true,
-    responsive: {
-      desktop: { breakpoint: { max: 1024, min: 768 }, items: 2 },
-      tablet: { breakpoint: { max: 768, min: 464 }, items: 1 },
-      mobile: { breakpoint: { max: 464, min: 0 }, items: 1 }
-    }
-  };
 
   return (
     <div className="about">
@@ -51,7 +36,7 @@ const About = () => {
             As I improved, I moved on to <strong>typed languages</strong> like Python, JavaScript, and Java. The ability to 
             create something from scratch, automate tasks, and <strong>solve problems efficiently</strong> fascinated me. 
             Over time, I realized that software development isn’t just about competition—it's about innovation and 
-            <strong>helping others</strong>.
+            <strong> helping others</strong>.
           </p>
           <p>
             Now, my goal is to <strong>build impactful solutions</strong> that make life easier, automate workflows, and 
@@ -59,16 +44,18 @@ const About = () => {
           </p>
         </section>
 
+        <img src={codingPhoto} alt="Coding on a computer"></img>
+
         <section data-aos="fade" data-aos-delay="100" className="interests">
-          <h2>Things I Love</h2>
-          <Carousel {...carouselSettings}>
+          <h2>(Other) Things I Love</h2>
+          <div className="interests-grid">
             {interests.map((interest, index) => (
-              <div key={index} className="interest-card">
-                <p>{interest.text}</p>
+              <div key={index} className="interest-item">
                 <img src={interest.image} alt={interest.text} />
+                <p>{interest.text}</p>
               </div>
             ))}
-          </Carousel>
+          </div>
         </section>
       </div>
     </div>
